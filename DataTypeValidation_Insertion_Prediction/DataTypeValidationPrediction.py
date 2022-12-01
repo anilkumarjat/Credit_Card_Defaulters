@@ -11,10 +11,6 @@ class dBOperation:
     """
           This class shall be used for handling all the SQL operations.
 
-          Written By: iNeuron Intelligence
-          Version: 1.0
-          Revisions: None
-
           """
 
     def __init__(self):
@@ -32,9 +28,6 @@ class dBOperation:
                         Output: Connection to the DB
                         On Failure: Raise ConnectionError
 
-                         Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
 
                         """
         try:
@@ -57,10 +50,6 @@ class dBOperation:
            Description: This method creates a table in the given database which will be used to insert the Good data after raw data validation.
            Output: None
            On Failure: Raise Exception
-
-            Written By: iNeuron Intelligence
-           Version: 1.0
-           Revisions: None
 
         """
         try:
@@ -109,9 +98,7 @@ class dBOperation:
                                        Output: None
                                        On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
-                                       Version: 1.0
-                                       Revisions: None
+               
 
                 """
 
@@ -159,9 +146,7 @@ class dBOperation:
                                        Output: None
                                        On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
-                                       Version: 1.0
-                                       Revisions: None
+     
 
                 """
 
